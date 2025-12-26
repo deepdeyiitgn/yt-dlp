@@ -1,0 +1,61 @@
+/* QuickFile - Download any Content in One Place - Stylesheet */
+QWidget {
+    background: #181c24;
+    color: #f5f6fa;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 15px;
+}
+QLabel {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+QLineEdit, QComboBox, QProgressBar, QPushButton, QCheckBox {
+    font-size: 15px;
+    border-radius: 6px;
+    padding: 6px 10px;
+    margin-bottom: 10px;
+}
+QLineEdit, QComboBox {
+    background: #232a34;
+    border: 1px solid #2e3642;
+    color: #f5f6fa;
+}
+QPushButton {
+    background: #3b82f6;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    padding: 8px 0;
+    transition: background 0.2s;
+}
+QPushButton:hover {
+    background: #2563eb;
+}
+QProgressBar {
+    background: #232a34;
+    border: 1px solid #2e3642;
+    text-align: center;
+    color: #fff;
+    height: 18px;
+}
+QProgressBar::chunk {
+    background: #3b82f6;
+    border-radius: 6px;
+}
+QCheckBox {
+    margin-left: 2px;
+}
+#footerLabel {
+    color: #8b949e;
+    font-size: 13px;
+    margin-top: 18px;
+    qproperty-alignment: AlignCenter;
+}
+#titleLabel {
+    font-size: 22px;
+    font-weight: bold;
+    color: #3b82f6;
+    margin-bottom: 18px;
+    qproperty-alignment: AlignCenter;
+}
